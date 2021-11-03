@@ -19,6 +19,7 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin(); //시작
 
+
         try {
 
             tx.commit(); //커밋
